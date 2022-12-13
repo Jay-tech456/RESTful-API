@@ -1,0 +1,25 @@
+Get http://localhost:3000/subscribers
+
+###
+
+Get http;//localhost:3000/subscribers/15
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+{
+  "name": "Amazing Person",
+  "subscribedToChannel": "Mr. Beast"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers
+
+###
+PATCH http://localhost:3000/subscribers
+Content-Type: application/json
+{
+  "name": "Amazing Person"
+}
